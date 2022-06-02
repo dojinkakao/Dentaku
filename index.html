@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>電卓</title>
+ 
+</head>
+ 
+<body>
+  <form name="dentaku">
+    <table class="calc">
+
+      <tr>
+        <td colspan="4" id="result" >0</td>
+    </tr>
+ 
+      <tr>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">7</button>
+        </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">8</button>
+        </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">9</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" class="operator" name="div_btn" onclick="buttonClick(this)">/</button>
+        </td>
+      </tr>
+        
+      <tr>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">4</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">5</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">6</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" class="operator" name="multi_btn" onclick="buttonClick(this)">*</button>
+            </td>
+      </tr>
+ 
+      <tr>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">1</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">2</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">3</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" class="operator" onclick="buttonClick(this)">-</button>
+            </td>
+      </tr>
+ 
+      <tr>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">0</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" onclick="buttonClick(this)">AC</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" class="equal" onclick="buttonClick(this)">=</button>
+            </td>
+        <td class="dentaku-btn">
+            <button type="button" class="operator" onclick="buttonClick(this)">+</button>
+            </td>
+      </tr>
+ 
+    </table>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>

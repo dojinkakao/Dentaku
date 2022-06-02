@@ -1,0 +1,38 @@
+table {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.td {
+    text-align: center;
+}
+
+button {
+    width: 75px;
+    height: 50px;
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+  }
+
+.button:active {
+    background:  #5a5a5a;
+}
+.operator:active {
+    background: #2c80b4;
+}
+.equal:active {
+    background: #2c80b4;
+}
+
+#result {
+    width: auto;
+    height: 65px;
+    border: solid 2px #5a5a5a ;
+    font-size: 35px;
+    text-align: right;
+    padding: 0 10px;
+}
